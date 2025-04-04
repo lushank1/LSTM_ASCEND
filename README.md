@@ -45,6 +45,67 @@ Engineers working with motion or prosthetics
 
 Researchers using motion capture data
 
+____________________________________________________________________________________________________________________________
+📥 Inputs
+
+There are two types of inputs:
+
+1️⃣ Training Inputs (from Excel file X_data.xlsx)
+   
+Each row is a data sample:
+
+Subject Height (cm)
+
+Subject Speed (m/s)
+
+Knee Length (cm)
+
+Staircase Tread (cm)
+
+Staircase Riser (cm)
+
+2️⃣ User Input for Prediction
+   
+During execution, the user is prompted to enter:
+
+text
+
+Copy
+
+Edit
+
+Enter Subject Height (cm):
+
+Enter Subject Speed (m/s):
+
+Enter Subject Knee Length (cm):
+
+Enter Staircase Tread Length (cm):
+
+Enter Staircase Riser Height (cm):
+
+📤 Outputs
+
+1️⃣ Predicted Outputs
+   
+The LSTM model outputs:
+
+Hip ROM (degrees)
+
+Knee ROM (degrees)
+
+Ankle ROM (degrees)
+
+These are predicted based on the input subject + stair features.
+
+2️⃣ Live Visualization
+   
+The predicted ROMs are shown in a bar chart, with:
+
+Y-axis: Range of Motion (degrees, scaled 1–10)
+
+Bars: Hip ROM, Knee ROM, Ankle ROM
+
 
 
 
