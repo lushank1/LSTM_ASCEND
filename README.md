@@ -64,6 +64,9 @@ Staircase Tread (cm)
 
 Staircase Riser (cm)
 
+![Untitled Diagram drawio](https://github.com/user-attachments/assets/51d72234-ea7a-4874-997e-e56157ee3338)
+
+
 2️⃣ User Input for Prediction
    
 During execution, the user is prompted to enter:
@@ -96,6 +99,9 @@ Knee ROM (degrees)
 
 Ankle ROM (degrees)
 
+![Lower-limb-joint-angle-trajectories-during-stair-ascent-and-descent-under-various-levels](https://github.com/user-attachments/assets/75d81a05-71c4-4ef0-85b9-211c2814dad6)*
+
+*Robotic body weight support enables safe stair negotiation in compliance with basic locomotor principles - Scientific Figure on ResearchGate. Available from: https://www.researchgate.net/figure/Lower-limb-joint-angle-trajectories-during-stair-ascent-and-descent-under-various-levels_fig1_338130011 [accessed 7 Apr 2025]
 These are predicted based on the input subject + stair features.
 
 2️⃣ Live Visualization
